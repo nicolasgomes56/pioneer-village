@@ -1,0 +1,20 @@
+#!/usr/bin/env sh
+# . "$(dirname -- "$0")/_/husky.sh"
+
+# # Verifica se o biome está instalado
+# if ! [ -x "$(command -v biome)" ] && ! [ -x "./node_modules/.bin/biome" ]; then
+#   echo "Erro: Biome não encontrado. Verifique se está instalado com:"
+#   echo "pnpm add -D @biomejs/biome"
+#   exit 1
+# fi
+
+# # Adiciona arquivos staged ao lint-staged
+# echo "▶️ Executando Biome..."
+# FILES=$(git diff --cached --name-only --diff-filter=d | grep -E '\.(ts|tsx|js|jsx|json|css|scss|html|lua)$')
+# if [ -n "$FILES" ]; then
+#   echo "$FILES" | xargs npx biome check --write --no-errors-on-unmatched
+#   echo "$FILES" | xargs npx biome format --write --no-errors-on-unmatched
+#   echo "$FILES" | xargs git add
+# fi
+
+# echo "✅ Pré-commit concluído com sucesso!"

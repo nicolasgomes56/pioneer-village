@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@lib/*": ["packages/lib/*"],
+			"@socket/*": ["packages/socket/*"]
+		}
+	}
+}

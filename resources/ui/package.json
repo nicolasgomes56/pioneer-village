@@ -5,7 +5,6 @@
   "license": "MIT",
   "scripts": {
     "build": "rspack --mode production",
-    "watch": "rspack --mode development --watch",
-    "prettier": "prettier src/**/*.{ts,tsx} --write"
+    "watch": "rspack --mode development --watch"
   }
 }

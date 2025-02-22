@@ -1,3 +1,0 @@
-<component name="DependencyValidationManager">
-  <scope name="doors" pattern="file[pioneer-village]:resources/*core*/doors//*" />
-</component>

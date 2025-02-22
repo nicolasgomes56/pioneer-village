@@ -1,3 +1,0 @@
-<component name="DependencyValidationManager">
-  <scope name="customization" pattern="file[pioneer-village]:resources/*core*/customization//*" />
-</component>

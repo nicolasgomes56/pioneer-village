@@ -1,16 +1,16 @@
 declare interface ClientExports {
-  _boilerplate: _Boilerplate.ClientExports;
+	_boilerplate: _Boilerplate.ClientExports;
 }
 
 declare namespace _Boilerplate {
-  type ClientExports = {};
+	type ClientExports = {};
 }
 
 // Set any events also in /socket/src/types.d.ts
-declare interface UIRPC {}
+declare type UIRPC = {};
 
-declare interface UIEvents {}
+declare type UIEvents = {};
 
-declare interface ClientForwardEvents {}
+declare type ClientForwardEvents = {};
 
-declare interface SocketForwardEvents {}
+declare type SocketForwardEvents = {};
